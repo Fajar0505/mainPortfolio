@@ -1,0 +1,40 @@
+body {
+}
+
+span {
+  font-family: Questrial, sans-serif;
+}
+
+a {
+  font-family: Questrial, sans-serif;
+}
+
+@media (min-width: 992px) {
+  a.nav-link:hover {
+    background: var(--bs-warning);
+    color: #ffffff;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .pro {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .my_name {
+    width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .intoduction {
+    text-align: right;
+  }
+}
+
+.footer {
+}
+

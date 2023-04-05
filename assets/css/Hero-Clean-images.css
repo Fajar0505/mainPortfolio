@@ -1,0 +1,215 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+.fotter {
+}
+
+.h1_footer {
+  font-family: 'Secular One', sans-serif;
+}
+
+.h6_footer {
+  font-family: Overpass, sans-serif;
+}
+
+.h5_footer {
+  font-family: Overpass, sans-serif;
+}
+
+.btnfooter {
+  border-radius: 16px;
+  width: 153.833px;
+  height: 42.6667px;
+  font-family: 'Secular One', sans-serif;
+  color: var(--bs-white);
+}
+
+footer {
+  background: #091b29;
+}
+
+body {
+}
+
+.btn_myresume {
+  background: var(--bs-yellow);
+  color: #ffffff;
+  border-radius: 20px;
+  width: 155.896px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.btn_myresume:hover {
+  color: var(--bs-yellow);
+  font-weight: bold;
+}
+
+.btn_myresume2 {
+  background: #003c55;
+  border-radius: 20px;
+  color: var(--bs-btn-bg);
+  width: 155.896px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.btn_myresume2:hover {
+  background: var(--bs-btn-bg);
+  font-weight: bold;
+  color: #001c28;
+  border-color: #001c28;
+}
+
+.h4_home_banner {
+  font-family: 'Secular One', sans-serif;
+  color: #003c55;
+}
+
+a {
+}
+
+@media (max-width: 576px) {
+  .banner_buttons {
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn_myresume {
+    width: 285.896px;
+    margin-bottom: 9px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn_myresume2 {
+    width: 285.896px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img_banner_img {
+    margin-top: -39px;
+  }
+}
+
+.h1_index_banner {
+  color: #091b29;
+  font-family: 'Secular One', sans-serif;
+}
+
+.btn_index_banner {
+  background: var(--bs-yellow);
+  font-family: 'Secular One', sans-serif;
+  color: var(--bs-gray-100);
+  border-radius: 13px;
+  border: 3px solid var(--bs-yellow) ;
+}
+
+.span_header {
+  color: #091b29;
+  font-family: Questrial, sans-serif;
+}
+
+a.nav-link {
+  font-family: Bangers, serif;
+  color: #091b29;
+}
+
+.btn_index_banner:hover {
+  color: #091b29;
+  border-width: 3px;
+  border-color: #091b29;
+}
+
+.btnfooter:hover {
+  background: white;
+  border-width: 3px;
+  border-color: var(--bs-btn-bg);
+}
+
+.h4_home_banner2 {
+  font-family: Questrial, sans-serif;
+}
+
+.h4_hithere {
+  font-family: Questrial, sans-serif;
+}
+
+p.intoduction_myself {
+  font-size: 14px;
+}
+
+h3.intoduction_myself {
+  font-family: 'Secular One', sans-serif;
+  color: #003c55;
+}
+
+.my_picture {
+  border-radius: 20px;
+}
+
+h1.skills {
+  font-family: 'Secular One', sans-serif;
+  color: #003c55;
+}
+
+dt.list_description {
+  margin-left: 12px;
+}
+
+h3.portofolio {
+  font-family: 'Secular One', sans-serif;
+  color: #003c55;
+}
+
+a.aa {
+  background: url("../../assets/img/3.jpeg");
+}
+
+img.porto_img {
+  border-radius: 20px;
+}
+
+.skills {
+  color: #003c55;
+}
+
+@media (min-width: 768px) {
+  .col2_of_skills {
+    padding-left: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col3_of_skills {
+    padding-left: 52px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col2_of_skills {
+    padding-left: 85px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col3_of_skills {
+    padding-left: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col3_of_skills {
+    padding-left: 138px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col2_of_skills {
+    padding-left: 115px;
+  }
+}
+
