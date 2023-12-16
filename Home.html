@@ -1,147 +1,412 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="light" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>my resume</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Secular+One&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/Hero-Clean-images.css">
-    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Features-Large-Icons-icons.css">
+    <link rel="stylesheet" href="assets/css/projectStyle.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-lg py-3">
-        <div class="container"><a class="navbar-brand d-flex align-items-center my_name" href="index.html" style="padding-right: 0px;"><span class="fs-4 fw-bold me-0 ps-3">Ahmad Malik Fajar&nbsp;</span><span class="fs-6 text-muted align-self-end ms-2 span-disable pro" disabled="">Programmer</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+<body data-bs-spy="scroll" data-bs-target="#my_navbar" data-bs-root-margin="0px 0px -60%" tabindex="0">
+    <nav class="navbar navbar-expand-lg sticky-top bg-light px-3 px-sm-0" id="my_navbar">
+        <div class="container"><a class="navbar-brand d-flex align-items-center my_name" href="index.html" style="padding-right: 0px;"><span class="fs-4 fw-bold me-0">Ahmad Malik Fajar&nbsp;</span><span class="fs-6 text-muted align-self-end ms-2 span-disable pro" disabled="">Programmer</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav text-uppercase fs-5 fw-normal ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about_myself">about</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home" rel="tag">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about_myself" rel="tag">about</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#my_skills" rel="tag">skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio" rel="tag">portfolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="Contact_page.html">contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="py-5">
-        <div class="container-md px-md-2 px-0">
-            <div class="bg-white border rounded border-0 border-dark overflow-hidden">
-                <div class="row g-0">
-                    <div class="col-md-6 ms-md-0">
-                        <div class="text-dark px-md-3 px-4"><img class="mb-4" src="assets/img/AM2.png" width="206" height="98">
-                            <h4 class="h4_hithere mb-0">Hi there! I'm</h4>
-                            <h2 class="mb-4 h4_home_banner2">AHMAD MALIK FAJAR</h2>
-                            <h6 class="fw-semibold mb-0 h4_home_banner">FRONT END PROGRAMMER</h6>
-                            <p class="text-muted mb-4">Ahmad is a Web Front End Programmer who can create a responsive and beautiful website from Ui designs.</p>
-                            <div class="my-3 banner_buttons"><a class="btn btn-lg fs-6 btn_myresume me-0 me-md-2" role="button" href="#">MY RESUME</a><a class="btn btn-light btn-lg fs-6 btn_myresume2" role="button" href="#">CONTACT ME</a></div>
+    <section data-aos="fade-down" data-aos-duration="1200" data-aos-once="true" id="home" class="section_padding">
+        <div class="container px-4 px-sm-2">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="text-dark mb-4"><img class="mb-4" src="assets/img/logo.png" width="206" height="98">
+                        <h4 class="h4_hithere mb-0">Hi there! I'm</h4>
+                        <h2 class="mb-4 h4_home_banner2">AHMAD MALIK FAJAR</h2>
+                        <h6 class="fw-semibold mb-0 h4_home_banner">FRONT END PROGRAMMER</h6>
+                        <p class="text-muted mb-0">Ahmad is a Web Front End Programmer who can create a responsive and beautiful website from Ui designs.</p>
+                    </div>
+                    <div class="row g-0 text-center text-md-start">
+                        <div class="col-12 col-md-auto me-md-2">
+                            <div class="header_btn"><a class="btn btn-lg fs-6 btn_myresume btn_first_color" role="button" href="#">MY RESUME</a></div>
+                        </div>
+                        <div class="col-12 col-md-auto pt-2 pt-md-0">
+                            <div class="header_btn"><a class="btn btn-light btn-lg fs-6 btn_myresume btn_second_color" role="button" href="Contact_page.html">CONTACT ME</a></div>
                         </div>
                     </div>
-                    <div class="col-md-6"><img class="img-fluid img_banner_img d-none d-md-block" src="assets/img/2.jpeg"><img class="img-fluid d-block d-md-none my-5" src="assets/img/4.png"></div>
                 </div>
+                <div class="col-md-6 ps-md-4"><img class="img-fluid img_banner_img d-none d-md-block" src="assets/img/headerImg.png"><img class="img-fluid d-block d-md-none my-5 mb-0" src="assets/img/headerImg2.png"></div>
             </div>
         </div>
     </section>
-    <section id="about_myself" class="mb-5 my-lg-5">
-        <div>
-            <div class="container px-4" id="about_myself">
-                <div class="row">
-                    <div class="col-md-7 col-lg-6 col-xxl-5 mb-5"><img class="img-fluid my_picture" src="assets/img/foto%20saya.jpg"></div>
-                    <div class="col">
-                        <h3 class="intoduction_myself mb-4">ABOUT FAJAR</h3>
-                        <p class="text-muted intoduction_myself mb-5 mb-md-4">fajar adalah seorang web front end dan java programmer dengan beragam kemampuan di bahasa web front end dan java desktop. dia lulusan rekayasa prangkat lunak dari smkn 1 depok dan sekarang dia mahasiswa semester 7 di universitas unindra, juga sedang mempelajari bahasa inggris.<br><br>fajar memiliki kemampuan di HTML,CSS,javascript,bootstrap,jquery,React.js,<br>java,PHP,MySQL,SQL Lite,pascal. Selain Memiliki kemampuan di bahasa programing, fajar juga memiliki kemampuan di bidang design, adobe xd. adobe illustrator, adobe photoshop, and figma.<br><br>Fajar ambisius, mandiri,kreatif, idealis,kritis dan lainya, tapi untuk benar benar mengetahui sikap fajar secara individu dan bekerja dengan tim, anda harus bekerjasama dengannya.<br></p>
-                        <div class="text-center text-md-start"><a class="btn btn-light btn-lg fs-6 btn_myresume2 mb-2 mb-md-0 me-md-2" role="button" href="#">CONTACT ME</a><a class="btn btn-lg fs-6 btn_myresume me-0 me-md-2" role="button" href="#">MY RESUME</a></div>
+    <section data-aos="fade-right" data-aos-duration="1200" data-aos-once="true" id="about_myself" class="section_padding">
+        <div class="container px-4 px-sm-2" id="about_myself">
+            <div class="row g-0">
+                <div class="col-sm-12 col-md-7 col-lg-5 mb-4 px-md-0 px-sm-0"><img class="img-fluid my_picture" src="assets/img/foto%20saya.jpg"></div>
+                <div class="col-auto col-lg-7 col-xl-7 px-md-0 px-sm-0 ps-lg-4">
+                    <div class="row g-0 row-cols-1 text-center text-md-start">
+                        <div class="col">
+                            <div class="mb-4">
+                                <h3 class="intoduction_myself mb-2">ABOUT ME.</h3>
+                                <p class="text-muted intoduction_myself mb-md-4 mb-0">Back in 2019 when I passed from my high school, I decided to become a Web Front End Programmer Because I was good at it in high school. I worked as&nbsp;a Web Front End Programmer for 1 year at PT.Kharisma Chemindo, But I decided to leave the company, I did it because I needed a better company, Than I worked as IT-Support at SAF for 2 years.<br><br>Besides working I also studied at a university in the evening, the subject I took was Computer Engineering it called Teknik Informatika in Indonesia, But now I have completed my study and got a good score. My focuses now are looking for a job ,studying English, and making some small project for my Portfolio. <br><br>Thanks For Reading My Short Story&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-5 text-danger">
+                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84.02L256 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 .0003 232.4 .0003 190.9L0 190.9z"></path>
+                                    </svg>.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row g-0">
+                                <div class="col-12 col-md-auto me-md-2">
+                                    <div class="header_btn"><a class="btn btn-lg fs-6 btn_myresume btn_first_color" role="button" href="#">MY RESUME</a></div>
+                                </div>
+                                <div class="col-12 col-md-auto pt-2 pt-md-0">
+                                    <div class="header_btn"><a class="btn btn-light btn-lg fs-6 btn_myresume btn_second_color" role="button" href="Contact_page.html">CONTACT ME</a></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="skills" class="pt-md-4 mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col mb-md-4">
-                    <h3 class="text-center skills mb-4" style="font-family: 'Secular One', sans-serif;">SKILLS</h3>
+    <section data-aos="fade-up" data-aos-duration="1200" data-aos-once="true" id="my_skills" class="skills_section section_padding">
+        <div class="container px-4 px-sm-3 skills_container">
+            <div class="row row-cols-lg-2 mb-lg-4">
+                <div class="col-12 mb-4 mb-lg-0">
+                    <div class="row g-0">
+                        <div class="col-auto">
+                            <div class="text-center icon_wrap mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-certificate skills">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="15" cy="15" r="3"></circle>
+                                    <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5"></path>
+                                    <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73"></path>
+                                    <line x1="6" y1="9" x2="18" y2="9"></line>
+                                    <line x1="6" y1="12" x2="9" y2="12"></line>
+                                    <line x1="6" y1="15" x2="8" y2="15"></line>
+                                </svg></div>
+                        </div>
+                        <div class="col ps-2 pt-lg-2 ps-lg-3">
+                            <div>
+                                <h6 class="mb-0">Certificates</h6>
+                            </div>
+                            <div class="row g-0 mb-2">
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>English A1</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">English B1</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">HTML</span></div>
+                                </div>
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>SASS</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">CSS</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">GIT</span></div>
+                                </div>
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>JAVASCRIPT</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">REACT JS</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">FRONT-END</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4 mb-lg-0">
+                    <div class="row g-0">
+                        <div class="col-auto">
+                            <div class="text-center icon_wrap mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-code skills">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <polyline points="7 8 3 12 7 16"></polyline>
+                                    <polyline points="17 8 21 12 17 16"></polyline>
+                                    <line x1="14" y1="4" x2="10" y2="20"></line>
+                                </svg></div>
+                        </div>
+                        <div class="col ps-2 pt-lg-2 ps-lg-3">
+                            <div>
+                                <h6 class="mb-0">Programming Languages</h6>
+                            </div>
+                            <div class="row g-0 mb-2">
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>HTML</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">CSS</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">SASS</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">JQUERY</span></div>
+                                </div>
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>JAVASCRIPT</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">JS REACT</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">BOOTSTRAP</span></div>
+                                </div>
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>PHP</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">MYSQL</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">SQL LITE</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">PASCAL</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">JAVA SE</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4"><dt class="list_description">SOFT SKILLS</dt>
-                    <ul>
-                        <li>RESEARCH</li>
-                        <li>COLLABORATION</li>
-                        <li>Self-motivated</li>
-                        <li class="text-uppercase">Willingness to learn</li>
-                        <li class="text-uppercase">Empathy</li>
-                        <li class="text-uppercase">Project management</li>
-                    </ul><dt class="list_description">HARD SKILLS</dt>
-                    <ul>
-                        <li>Research</li>
-                        <li>Collaboration</li>
-                        <li>Self-motivated</li>
-                        <li>Willingness to learn</li>
-                        <li>Empathy</li>
-                        <li>Project management</li>
-                    </ul>
+            <div class="row row-cols-lg-2">
+                <div class="col-12 mb-4 mb-lg-0">
+                    <div class="row g-0">
+                        <div class="col-auto">
+                            <div class="text-center icon_wrap mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-device-desktop skills">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <rect x="3" y="4" width="18" height="12" rx="1"></rect>
+                                    <line x1="7" y1="20" x2="17" y2="20"></line>
+                                    <line x1="9" y1="16" x2="9" y2="20"></line>
+                                    <line x1="15" y1="16" x2="15" y2="20"></line>
+                                </svg></div>
+                        </div>
+                        <div class="col ps-2 pt-lg-2 ps-lg-3">
+                            <div>
+                                <h6 class="mb-0">Other Skills</h6>
+                            </div>
+                            <div class="row g-0 mb-2">
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>Operates Linux</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">Operates Windows</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">Installing OS,Hardware &amp; Software</span></div>
+                                </div>
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>Fixing OS,Software &amp; Hardware Problems</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">Figma</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">Adobe XD</span></div>
+                                </div>
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>Adobe AI</span></div>
+                                </div>
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>Adobe Photoshop</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 col2_of_skills"><dt class="list_description">PROGRAMMING</dt>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                        <li>BOOTSTRAP</li>
-                        <li>RECT.JS</li>
-                        <li>JQUERY</li>
-                        <li>PHP</li>
-                        <li>MYSQL</li>
-                        <li>SQL LITE</li>
-                        <li>PASCAL</li>
-                        <li>JAVA</li>
-                    </ul><dt class="list_description">GRAPHIC DESIGN</dt>
-                    <ul>
-                        <li>ADOBE ILLUSTRATOR</li>
-                        <li>ADOBE PHOTOSHOP</li>
-                        <li>CANVA</li>
-                        <li>ADOBE XD</li>
-                        <li>FIGMA</li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col3_of_skills"><dt class="list_description">VIDEO EDITING</dt>
-                    <ul>
-                        <li>ADOBE PREMIER</li>
-                        <li>FILMORA</li>
-                        <li>COREL STUDIO</li>
-                    </ul><dt class="list_description">OTHER SOFTWARE</dt>
-                    <ul>
-                        <li>MICROSOFT OFFICE</li>
-                        <li>MICROSOFT POWER POINT</li>
-                        <li>MICROSOFT EXCEL</li>
-                    </ul>
+                <div class="col-12">
+                    <div class="row g-0">
+                        <div class="col-auto">
+                            <div class="text-center icon_wrap mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-medal skills">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M12 4v3m-4 -3v6m8 -6v6"></path>
+                                    <path d="M12 18.5l-3 1.5l.5-3.5-2-2 3-.5 1.5-3 1.5 3 3 .5-2 2 .5 3.5z"></path>
+                                </svg></div>
+                        </div>
+                        <div class="col ps-2 pt-lg-2 ps-lg-3">
+                            <div>
+                                <h6 class="mb-0">Experiences</h6>
+                            </div>
+                            <div class="row g-0 mb-2">
+                                <div class="col-auto me-2">
+                                    <div class="mb-2"><span>AS WEB FRONTEND FOR 1 YEAR</span></div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="mb-2"><span class="me-2">AS IT-SUPPORT FOR 2 YEARS</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="portfolio" class="pt-md-5">
-        <h3 class="text-center portofolio mb-4">PORTFOLIO</h3>
-        <div class="container-fluid">
-            <div class="row mb-md-3">
-                <div class="col-md-6 mb-3"><a href="#"><img class="img-fluid porto_img" src="assets/img/582f74a0.jpg"></a></div>
-                <div class="col-md-6 mb-3"><a href="#"><img class="img-fluid porto_img" src="assets/img/582f74a0.jpg"></a></div>
-            </div>
-        </div>
-        <div class="container-fluid">
+    <section data-aos="fade-up" data-aos-duration="1200" data-aos-once="true" id="portfolio" class="section_padding">
+        <div class="container px-4 px-sm-3">
             <div class="row">
-                <div class="col-md-6 mb-3"><a href="#"><img class="img-fluid porto_img" src="assets/img/582f74a0.jpg"></a></div>
-                <div class="col-md-6"><a href="#"><img class="img-fluid porto_img" src="assets/img/083c5630.jpg"></a></div>
+                <div class="col">
+                    <div>
+                        <h3 class="text-center portofolio mb-0">projetcs</h3>
+                        <p class="text-center"><span style="color: rgb(20, 28, 58);">Here are a few past design projects I've worked on.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-3 gy-3 row-cols-1 row-cols-md-2 row-cols-lg-3 projectPictures">
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgOne">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://fajar0505.github.io/rurifood.github.io/">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgTwo">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://fajar0505.github.io/bearbarber/">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgThree">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://fajar0505.github.io/darkMode/">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgFour">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" href="ProjectTwo.html" target="_blank">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgFive">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="Project.html">Visit Website &gt;</a></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="text-center pt-0 mt-5">
+    <section data-aos="fade-up" data-aos-duration="1200" data-aos-once="true" id="portfolio" class="section_padding">
+        <div class="container px-4 px-sm-3">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h3 class="text-center portofolio mb-0">certificates</h3>
+                        <p class="text-center"><span style="color: rgb(20, 28, 58);">Here are some my certificates I got.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-3 gy-3 row-cols-1 row-cols-md-2 row-cols-lg-3 certificatePictures">
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgOne">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://drive.google.com/file/d/1vAu1bLen7CPF1BdhDcUfmseJaXR56bc9/view?usp=sharing">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgOne">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://drive.google.com/file/d/1vlvzK1mFaODyheWVeQqe7LItCj8y9Tem/view?usp=sharing">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgTwo">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://drive.google.com/file/d/172ZOGtfcZa2aipre6zzEk9uK3a4BNcqr/view?usp=sharing">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgThree">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://drive.google.com/file/d/13w5DKA1BugZ7rxa3I6kfmbWdlft2_bBK/view?usp=sharing">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgFour">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://drive.google.com/file/d/1SxzwFdegq7RlkFUAt8yVE9vu5UtYimVD/view?usp=sharing">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgFive">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://drive.google.com/file/d/1VboIjUgdM8N3fyom49v0gx1Ol6SqNBL9/view?usp=sharing">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgSix">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://drive.google.com/file/d/1C7oux6yjCDZhWMgEm5wDBz5RUAf6v8Ap/view?usp=sharing">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgSeven">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://drive.google.com/file/d/1MkJxQH9L_pJMiBoFie9c-aoZmuOALNtF/view?usp=sharing">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+                <div class="col pictureContainers">
+                    <div class="row g-0 row-cols-1 d-block h-100 pictureContainer bgEight">
+                        <div class="col text-center d-flex align-items-end h-50 px-3">
+                            <h4 class="d-block">High-end, custom residential renovaters serving Fraser Valley homeowners.</h4>
+                        </div>
+                        <div class="col d-flex justify-content-center h-50 pt-3"><a class="btn d-flex justify-content-center align-items-center projectButtons" role="button" target="_blank" href="https://drive.google.com/file/d/10oA8Rnml2CILqWBDGJcG4r0RrU1wVNWG/view?usp=sharing">Visit Website &gt;</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center pt-0">
         <div class="container text-white py-4 py-lg-5">
             <h3 class="text-warning h1_footer mb-md-0 pb-md-0 mb-0">AHMAD MALIK FAJAR</h3>
             <h5 class="h5_footer">Front End Programmer</h5>
@@ -160,6 +425,8 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
