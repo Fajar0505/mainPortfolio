@@ -1,0 +1,442 @@
+span {
+  font-family: Questrial, sans-serif;
+}
+
+@media (min-width: 992px) {
+  a.nav-link:hover {
+    background: var(--bs-warning);
+    color: #ffffff;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .pro {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .my_name {
+    width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .intoduction {
+    text-align: right;
+  }
+}
+
+.fit-cover {
+  object-fit: cover;
+}
+
+.h1_footer {
+  font-family: 'Secular One', sans-serif;
+}
+
+.h5_footer {
+  font-family: Overpass, sans-serif;
+}
+
+.btnfooter {
+  border-radius: 16px;
+  width: 153.833px;
+  height: 42.6667px;
+  font-family: 'Secular One', sans-serif;
+  color: var(--bs-white);
+}
+
+footer {
+  background: #091b29;
+  margin-top: 60px;
+}
+
+.btn_myresume {
+  background: var(--bs-yellow);
+  color: #ffffff;
+  border-radius: 20px;
+  width: 155.896px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.btn_myresume:hover {
+  color: var(--bs-yellow);
+  font-weight: bold;
+}
+
+.h4_home_banner {
+  font-family: 'Secular One', sans-serif;
+  color: #003c55;
+}
+
+@media (min-width: 300px) {
+  .btn_myresume {
+    width: 285.896px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn_myresume {
+    width: 158.896px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn_myresume {
+    width: 200.896px;
+  }
+}
+
+.h1_index_banner {
+  color: #091b29;
+  font-family: 'Secular One', sans-serif;
+}
+
+.btn_index_banner {
+  background: var(--bs-yellow);
+  font-family: 'Secular One', sans-serif;
+  color: var(--bs-gray-100);
+  border-radius: 13px;
+  border: 3px solid var(--bs-yellow);
+}
+
+a.nav-link {
+  font-family: Bangers, serif;
+  color: #091b29;
+}
+
+.btn_index_banner:hover {
+  color: #091b29;
+  border-width: 3px;
+  border-color: #091b29;
+}
+
+.btnfooter:hover {
+  background: white;
+  border-width: 3px;
+  border-color: var(--bs-btn-bg);
+}
+
+.h4_home_banner2 {
+  font-family: Questrial, sans-serif;
+}
+
+.h4_hithere {
+  font-family: Questrial, sans-serif;
+}
+
+p.intoduction_myself {
+  font-size: 16px;
+  text-align: justify;
+  font-family: 'Secular One', sans-serif;
+}
+
+h3.intoduction_myself {
+  font-family: Bangers, serif;
+  color: #003c55;
+  font-size: 36px;
+}
+
+.my_picture {
+  border-radius: 20px;
+}
+
+h3.portofolio {
+  font-family: Bangers, serif;
+  color: #003c55;
+  font-size: 36px;
+}
+
+#portfolio img.porto_img {
+  border-radius: 12px;
+}
+
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+@media (min-width: 576px) {
+  .span-disable.pro {
+    padding-bottom: 2px;
+  }
+}
+
+@media (min-width: 768px) {
+  .img_banner_img {
+    height: auto;
+    min-height: 324.375px;
+  }
+}
+
+.btn_myresume.btn_second_color {
+  background: #003c55;
+}
+
+.btn_myresume.btn_second_color:hover {
+  background: rgb(255,255,255);
+  border: 3px solid var(--bs-primary-text-emphasis);
+  color: var(--bs-primary-text-emphasis);
+}
+
+.btn_myresume.btn_first_color:hover {
+  border: 3px solid #ffc107;
+}
+
+.header_btn {
+  height: 45.6px;
+}
+
+@media (min-width: 992px) {
+  .img_banner_img {
+    min-height: 342.375px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img_banner_img {
+    height: 342.825px;
+    width: 563.787px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .img_banner_img {
+    width: 650.775px;
+    height: 346.825px;
+  }
+}
+
+svg.skills {
+  font-size: 24px;
+  color: #003c55;
+}
+
+.skills_section .icon_wrap {
+  background: #ffc107;
+  border-radius: 60px;
+  border-style: solid;
+  border-color: var(--bs-body-bg);
+  width: 62px;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  min-width: 62px;
+  min-height: 64.9px;
+}
+
+.skills_section h6 {
+  font-family: 'Secular One', sans-serif;
+}
+
+.skills_section span {
+  background: #E7E7E7;
+  border-radius: 6px;
+  border: 6.4px solid #E7E7E7;
+  font-size: 12px;
+}
+
+@media (min-width: 992px) {
+  .skills_section .icon_wrap {
+    width: 84px;
+    height: 81.8px;
+  }
+}
+
+@media (min-width: 992px) {
+  svg.skills {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 992px) {
+  .skills_section h6 {
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 992px) {
+  .skills_section span {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-link.active {
+    background: var(--bs-warning);
+    color: #ffffff;
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 300px) {
+  .section_padding {
+    padding-top: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section_padding {
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    margin-top: 100px;
+  }
+}
+
+/* Define size for the column */
+
+#portfolio .pictureContainers {
+  height: 255px;
+}
+
+/* Define styles for the class */
+
+#portfolio .pictureContainer {
+  border-radius: 12px;
+  transition: all.45s ease-in-out;
+}
+
+/* Define Pseudo-classes for the class */
+
+#portfolio .pictureContainer:hover {
+  background: #091b29 !important;
+}
+
+/* Define styles for the text inside the link */
+
+#portfolio .pictureContainer h4 {
+  border-radius: 12px;
+  color: #E7E7E7;
+}
+
+/* Define Style for the button and text */
+
+#portfolio .pictureContainer a, #portfolio .pictureContainer h4 {
+  opacity: 0;
+  transition: all.45s ease-in-out;
+}
+
+/* Define styles for the text and button on hover */
+
+#portfolio .pictureContainer:hover a, #portfolio .pictureContainer:hover h4 {
+  opacity: 1;
+}
+
+/* Define Styles for the buttons */
+
+#portfolio .projectButtons {
+  border: 3px solid #ffc107;
+  border-radius: 18px;
+  color: rgb(255,255,255);
+  width: 144.962px;
+  font-size: 14px;
+  height: 44.8px;
+  font-family: 'Secular One', sans-serif;
+}
+
+/* Define Pseudo-classes for the class */
+
+#portfolio .projectButtons:hover {
+  background: #ffc107;
+}
+
+#contactDetails .contactIcons {
+}
+
+#contactDetails .contactIcons svg {
+  width: 50px;
+  height: 50px;
+  color: #ffc107;
+}
+
+#portfolio .pictureContainer.bgFive {
+  background: url("../../assets/img/lightStudio%20Banner.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .pictureContainer.bgFour {
+  background: url("../../assets/img/udJembarBanner.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .pictureContainer.bgThree {
+  background: url("../../assets/img/portoDarkMode.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .pictureContainer.bgTwo {
+  background: url("../../assets/img/bearBarber.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .pictureContainer.bgOne {
+  background: url("../../assets/img/ruriFood.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .certificatePictures .pictureContainer.bgTwo {
+  background: url("../../assets/img/htmlCertificate.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .certificatePictures .pictureContainer.bgEight {
+  background: url("../../assets/img/11.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .certificatePictures .pictureContainer.bgSeven {
+  background: url("../../assets/img/frontendCertificate.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .certificatePictures .pictureContainer.bgSix {
+  background: url("../../assets/img/reactCertificate.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .certificatePictures .pictureContainer.bgFive {
+  background: url("../../assets/img/sassCertificate.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .certificatePictures .pictureContainer.bgFour {
+  background: url("../../assets/img/javascriptCertificate.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .certificatePictures .pictureContainer.bgThree {
+  background: url("../../assets/img/gitCertificate.png") no-repeat;
+  background-size: cover;
+}
+
+#portfolio .certificatePictures .pictureContainer.bgOne {
+  background: url("../../assets/img/englishCertificate.png") no-repeat;
+  background-size: cover;
+}
+
