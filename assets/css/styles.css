@@ -261,8 +261,10 @@ svg.skills {
 
 .skills_section span {
   background: #E7E7E7;
+  display: block;
   border-radius: 6px;
   border: 6.4px solid #E7E7E7;
+  text-transform: capitalize;
   font-size: 12px;
 }
 
@@ -452,5 +454,9 @@ svg.skills {
 #portfolio .certificatePictures .pictureContainer.bgOne {
   background: url("../../assets/img/englishCertificate.png") no-repeat;
   background-size: cover;
+}
+
+.skills_section .mb-2 {
+  background: #ffffff;
 }
 
